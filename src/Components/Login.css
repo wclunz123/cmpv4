@@ -1,0 +1,66 @@
+.login {
+  width: 400px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px;
+  background: #fff;
+  z-index: 5;
+}
+
+.login_info {
+  width: 542px;
+  height: 115px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  margin: auto;
+  font-size: 15px;
+  line-height: 0.6;
+  background-color: #dcdcdc;
+  z-index: 0;
+}
+
+.login_info p {
+  margin-left: 50px;
+}
+
+.login input[type="text"],
+input[type="Password"] {
+  border: none;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  width: 350px;
+  color: #000;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+}
+
+.login input[type="Password"] {
+  margin-top: 20px;
+}
+
+#account-login {
+  margin: 40px 10px 120px 0;
+  cursor: pointer;
+  background-color: #6495ed;
+}
+
+#anonymous-login {
+  margin: 15px 10px 0 0;
+}
+
+#account-login:hover {
+  background-color: darkblue;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 90%;
+  font-style: italic;
+}

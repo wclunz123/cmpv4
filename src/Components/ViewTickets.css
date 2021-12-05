@@ -1,0 +1,156 @@
+#viewtickets {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin-left: 20%;
+  padding: 30px;
+  background: #fff;
+}
+
+#viewtickets h2 {
+  margin-top: 0;
+}
+
+.ticket-list-container tr,
+.ticket-list-container td,
+.ticket-list-container th {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.ticket-list-container tr {
+  cursor: pointer;
+  background-color: #fff;
+  height: 45px;
+}
+
+.ticket-list-container tr:hover {
+  background-color: #dfe6e9;
+}
+
+.ticket-list-container thead tr:hover {
+  cursor: default;
+  background-color: #6495ed;
+}
+
+
+.ticket-list-container {
+  height: 30em;
+}
+
+.ticket-list-container table {
+  display: flex;
+  flex-flow: column;
+  height: 92%;
+  width: 100%;
+  padding-right: 20px;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.ticket-list-container table thead tr {
+  flex: 0 0 auto;
+  width: calc(100% - 0.9em);
+}
+
+.ticket-list-container table tbody {
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.ticket-list-container table tbody tr {
+  width: 100%;
+  width: calc(100% - 0.9em);
+}
+
+.ticket-list-container table tbody td {
+  text-align: center;
+}
+
+.ticket-list-container table thead,
+.ticket-list-container table tbody tr {
+  display: table;
+  table-layout: fixed;
+}
+
+.ticket-list-container table tbody thead tr {
+  color: white;
+  background-color: #6495ed;
+  position: sticky;
+  top: 0;
+  height: 3rem;
+}
+
+#return-triage {
+  margin-top: 15px;
+}
+
+@media print {
+  .ticket-list-container tr,
+.ticket-list-container td,
+.ticket-list-container th {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.ticket-list-container tr {
+  cursor: pointer;
+  background-color: #fff;
+  height: 45px;
+}
+
+.ticket-list-container tr:hover {
+  background-color: #dfe6e9;
+}
+
+.ticket-list-container {
+  height: 30em;
+}
+
+.ticket-list-container table {
+  display: flex;
+  flex-flow: column;
+  height: 92%;
+  width: 100%;
+  padding-right: 20px;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.ticket-list-container table thead {
+  flex: 0 0 auto;
+  width: calc(100% - 0.9em);
+}
+
+.ticket-list-container table tbody {
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.ticket-list-container table tbody tr {
+  width: 100%;
+  width: calc(100% - 0.9em);
+}
+
+.ticket-list-container table tbody td {
+  text-align: center;
+}
+
+.ticket-list-container table thead,
+.ticket-list-container table tbody tr {
+  display: table;
+  table-layout: fixed;
+}
+
+.ticket-list-container table tbody thead {
+  color: white;
+  background-color: #6495ed;
+  position: sticky;
+  top: 0;
+  height: 3rem;
+}
+}

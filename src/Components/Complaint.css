@@ -1,0 +1,48 @@
+.complaint-container {
+  width: 800px;
+  height: max-content;
+  overflow: hidden;
+  margin: auto;
+  padding: 10px 60px 0 60px;
+  background: #fff;
+}
+
+.complaint-container h2 {
+  color: #fff;
+  background-color: #BF2C37;
+  width: fit-content;
+  padding: 15px;
+}
+
+#complaint-form label {
+  padding: 20px;
+  margin-right: 80px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+#complaint-form input,
+#complaint-form select,
+#description {
+  width: 500px;
+  height: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+#complaint-form select {
+  height: 35px;
+  width: 520px;
+}
+
+#description {
+  height: 150px;
+}
+
+#complaint-submit,
+#complaint-return {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,78 @@
+.ticket-details_form {
+    display: inline-block;
+    background-color: #ffffff;
+    height: max-content;
+}
+
+.ticket-details_header,
+.ticket-details_footer {
+    display: inline-block;
+    padding: 15px;
+    margin-right: 5rem;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.ticket-details_header label,
+.ticket-details_footer label,
+.ticket-details_desc label,
+.ticket-details_title label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ticket-details_header div,
+.ticket-details_header input,
+.ticket-details_footer div,
+.ticket-details_footer input,
+.ticket-details_header select,
+.ticket-details_footer select {
+    margin-top: 10px;
+}
+
+.ticket-details_header input,
+.ticket-details_footer input {
+    font-size: 15px;
+    height: 10px;
+    width: 150px;
+    padding: 10px;
+}
+
+.ticket-details_header select,
+.ticket-details_footer select {
+    font-size: 15px;
+    padding: 8px;
+}
+
+.ticket-details_desc,
+.ticket-details_title {
+    height: auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 1000px;
+    line-height: 1.6rem;
+}
+
+.ticket-details_button-container {
+    padding: 20px;
+}
+
+.ticket-details_button {
+    margin-right: 25px;
+}
+
+.ticket-details_note {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#ticket-details_header-title {
+    width: auto;
+}
+
+#ticket-details_desc-content {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-top: 20px;
+}

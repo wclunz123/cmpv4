@@ -1,0 +1,49 @@
+.selection {
+  width: 350px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px;
+  background: #fff;
+  z-index: 5;
+}
+
+.selection h2 {
+  text-align: center;
+}
+
+#complaint-button {
+  margin-top: 25px;
+}
+
+#complaint-button,
+#feedback-button,
+#appeal-button,
+#ticket-status-button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  margin-bottom: 20px;
+  padding-right: 7px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #6495ed;
+}
+
+#complaint-button:hover,
+#feedback-button:hover,
+#appeal-button:hover,
+#ticket-status-button:hover {
+  background-color: darkblue;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+.logo-selection {
+  margin-left: 20px;
+}

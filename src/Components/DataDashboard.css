@@ -1,0 +1,50 @@
+#year-graph-container {
+  width: 1200px;
+  margin-left: 20%;
+  height: 680px;
+}
+
+.chart-container {
+  display: inline-block;
+  position: relative;
+  height: 25vh;
+  width: 20vw;
+  margin-left: 100px;
+}
+
+#doughnut-chart {
+    margin-right: 140px;
+}
+
+.bar-container {
+    display: inline-block;
+    height: 18vh;
+    width: 23vw;
+    margin-left: 5%;
+    margin-right: 200px;
+}
+
+.line-container {
+    display: inline-block;
+    height: 18vh;
+    width: 23vw;
+}
+
+#select-bar-year {
+  margin-bottom: 15px;
+}
+
+#select-chart-year {
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+.form-select {
+    
+    margin-left: 20px;
+}
+
+.form-select h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

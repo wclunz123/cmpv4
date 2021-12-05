@@ -1,0 +1,33 @@
+.public {
+  width: 400px;
+  height: max-content;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px;
+  padding-bottom: 30px;
+  background: #fff;
+  z-index: 2;
+}
+
+.identity-container {
+    height: max-content;
+    margin-bottom: 40px;
+}
+
+.identity-container h4 {
+    margin: 0;
+    padding: 5px;
+}
+
+.identity-content {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1rem;
+    padding: 5px;
+}
+
+#identity-button-pub,
+#identity-button-login {
+    margin-top: 10px;
+}
