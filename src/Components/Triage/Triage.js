@@ -3,10 +3,10 @@ import { Link, useHistory } from "react-router-dom";
 import axios from "axios";
 
 import TriageNav from "./TriageNav";
-import TicketDetails from "./TicketDetails";
-import TicketTableHeader from "./TicketTableHeader";
-import DashboardItem from "./DashboardItem";
-import Card from "../Shared/UIElements/Card";
+import TicketDetails from "../TicketDetails";
+import TicketTableHeader from "../TicketTableHeader";
+import DashboardItem from "../DashboardItem";
+import Card from "../../Shared/UIElements/Card";
 
 import "./Triage.css";
 

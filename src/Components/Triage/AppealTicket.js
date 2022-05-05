@@ -6,7 +6,7 @@ import Card from "../../Shared/UIElements/Card";
 import Button from "../../Shared/FormElements/Button";
 import TicketDetails from "../TicketDetails";
 import TicketTableHeader from "../TicketTableHeader";
-import TriageNav from "../TriageNav";
+import TriageNav from "./TriageNav";
 
 import MurdochLogo from "../../newlogo.png";
 

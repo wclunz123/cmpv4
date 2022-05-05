@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Doughnut, Bar, Line, Pie } from "react-chartjs-2";
 import axios from "axios";
 
-import TriageNav from "./TriageNav";
+import TriageNav from "./Triage/TriageNav";
 import Card from "../Shared/UIElements/Card";
 import "./DataDashboard.css";
 

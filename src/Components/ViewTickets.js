@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 
-import TriageNav from "./TriageNav";
+import TriageNav from "./Triage/TriageNav";
 import TicketDetails from "./TicketDetails";
 import TicketTableHeader from "./TicketTableHeader";
 

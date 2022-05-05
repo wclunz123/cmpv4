@@ -15,7 +15,7 @@ import Appeal from "./Components/Appeal";
 import TicketStatus from "./Components/TicketStatus";
 import TicketNumber from "./Components/TicketNumber";
 
-import Triage from "./Components/Triage";
+import Triage from "./Components/Triage/Triage";
 import ViewTickets from "./Components/ViewTickets";
 import DataDashboard from "./Components/DataDashboard";
 
@@ -72,8 +72,6 @@ const App = () => {
         <DataDashboard />
       </Route>
 
-
-
       <Route path="/complainttickets" exact>
         <ComplaintTicket />
       </Route>
@@ -86,8 +84,6 @@ const App = () => {
       <Route path="/newtickets" exact>
         <NewTicket />
       </Route>
-
-
 
       <Route path="/alltickets" exact>
         <AllTicket />
